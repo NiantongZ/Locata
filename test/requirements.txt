@@ -1,11 +1,10 @@
 streamlit
 pandas
 numpy
-bokeh.plotting
+bokeh
 pandas
-matplotlib.pyplot
+matplotlib
 seaborn
-plotly.express
-plotly.figure_factory
+plotly
 altair
 vega_datasets
