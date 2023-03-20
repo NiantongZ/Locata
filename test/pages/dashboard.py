@@ -118,7 +118,7 @@ def compare():
         st.markdown(":violet[Competitor] " + str(sum3[0]))
         st.markdown(":blue[Population] " + avg('90007',"Population",df))
 
-input1='datasets_clean.csv'
+input1='test/datasets_clean.csv'
 df = pd.read_csv(input1)
 
 with st.sidebar:
