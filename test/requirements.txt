@@ -4,7 +4,7 @@ numpy
 bokeh.plotting
 pandas
 matplotlib.pyplot
-seaborn as sns
+seaborn
 plotly.express
 plotly.figure_factory
 altair as alt
