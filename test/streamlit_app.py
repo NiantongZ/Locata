@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pydeck as pdk
-input1='datasets_clean.csv'
+input1='../test/datasets_clean.csv'
 st.title("Locata")
 st.subheader("Retail location recommendation")
 
