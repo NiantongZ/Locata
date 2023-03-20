@@ -11,7 +11,7 @@ import altair as alt
 from vega_datasets import data
 st.subheader("Competitors Analysis")
 
-df2 = pd.read_csv('competitora.csv')
+df2 = pd.read_csv('test/competitora.csv')
 st.write("<span style=\"font-size:20px;\">Zipcode 90012's restaurants has higher average rating and number of reviews on Yelp</span>", unsafe_allow_html=True)
 
 #df3=pd.Dataframes()
@@ -26,7 +26,7 @@ data = {'zipcode': ['90012', '90013', '90007'],
 df4 = pd.DataFrame(data)
 st.dataframe(df4)
 
-input1='datasets_clean.csv'
+input1='test/datasets_clean.csv'
 
 df = pd.read_csv(input1)
 st.subheader('Correlation')
