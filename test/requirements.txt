@@ -7,5 +7,5 @@ matplotlib.pyplot
 seaborn
 plotly.express
 plotly.figure_factory
-altair as alt
+altair
 vega_datasets
