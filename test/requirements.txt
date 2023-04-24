@@ -10,3 +10,9 @@ altair
 vega_datasets
 pydeck
 ast
+openpyxl
+Analysis
+time
+concurrent
+threading
+st_pages 
